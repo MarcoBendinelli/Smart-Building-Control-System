@@ -4,6 +4,8 @@ The system is designed to manage **sensors** and **actuators** deployed in multi
 
 Sensors installed in rooms monitor environmental data like temperature and humidity, using this information to activate commands on nearby actuators. For instance, if the temperature or humidity deviates from a comfortable range, an HVAC controller in the room is activated until the data returns to the desired range. Sensors are IoT devices, while actuators are more powerful devices capable of running a full-fledged operating system.
 
+Check out the full report [here](Report.pdf)!
+
 ## Implementation
 
 For inter-room communication, **Kafka** was chosen, while the sensor-actuator messaging system is implemented using **MQTT**. It is assumed that there is a single sensor for every actuator in the room, considering two possible types of actuators: one for temperature and one for humidity management.
