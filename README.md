@@ -20,6 +20,13 @@ The system functions as both a _producer_ and _consumer_: it consumes MQTT messa
 
 Due to sensors being unable to run a full-fledged operating system, **Contiki-NG** and **MQTT** were chosen for communication between sensors and actuators. Conversely, **Kafka** was selected for communication between actuators and a central server collecting all data. In the proposed version, only one broker and one partition are used, serving as a central processing unit for every building. In case of massive data, the project can be easily scaled to include more brokers and computing units.
 
+## Team members
+| Name and Surname | Github |
+:---: | :---: 
+| Matteo Beltrante | [@Beltrante](https://github.com/Beltrante) |
+| Marco Bendinelli | [@MarcoBendinelli](https://github.com/MarcoBendinelli) |
+| Simone Berasi | [@SimoneBerasi](https://github.com/SimoneBerasi) |
+
 ## Guide
 
 ### IoT device
