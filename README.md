@@ -40,10 +40,7 @@ And add the following lines in the bottom of the file:
 Save, Exit and Restart your machine.
 
 #### Start your IoT device
-Go in the correct folder:
-```shell
-cd IoT_stuff/IoT_stuff/IoT_device
-```
+Go in the correct folder
 Compile your code:
 ```shell
 make TARGET=native
